@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ke nako</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="info.css">
+</head>
+<body>
+  <h1>It's time!! (Onto Phase 2) <img src="laughing.png" class="laughing-img" alt="Laughing"/></h1>
+  
+  <p class="intro-text"><b>You are:</b></p>
+  
+  <ul class="list">
+    <li><img src="badge.png" alt="badge" class="badge-icon"> <span>A lady who loves and serves God</span></li>
+    <li><img src="badge.png" alt="badge" class="badge-icon"> <span>Fully sold out for Jesus</span></li>
+    <li><img src="badge.png" alt="badge" class="badge-icon"> <span>A lady who knows the word of God</span></li>
+    <li><img src="badge.png" alt="badge" class="badge-icon"> <span>Kind-hearted</span></li>
+    <li><img src="badge.png" alt="badge" class="badge-icon"> <span>Absolutely Beautiful</span></li>
+    <li><img src="badge.png" alt="badge" class="badge-icon"> <span>Funny</span></li>
+    <li><img src="badge.png" alt="badge" class="badge-icon"> <span>Smart</span></li>
+    <li><img src="badge.png" alt="badge" class="badge-icon"> <span>Stylish</span></li>
+    <li><img src="badge.png" alt="badge" class="badge-icon"> <span>Reliable</span></li>
+    <li><img src="badge.png" alt="badge" class="badge-icon"> <span>Caring</span></li>
+    <li><img src="badge.png" alt="badge" class="badge-icon"> <span>Fun to hang out with</span></li>
+    <li><img src="badge.png" alt="badge" class="badge-icon"> <span>An amazing listener</span></li>
+    <li><img src="badge.png" alt="badge" class="badge-icon"> <span>Thoughtful</span></li>
+    <li><img src="badge.png" alt="badge" class="badge-icon"> <span>Understanding</span></li>
+    <li><img src="badge.png" alt="badge" class="badge-icon"> <span>Just an overall amazing person</span></li>
+  </ul>
+  
+  <p>I have found that Proverbs 31:29 type of woman</p>
+  
+  <div class="image-container">
+    <img src="Luthando.jpg" alt="Luthando">
+    <span>+</span>
+    <img src="Tetelo.jpg" alt="Tetelo">
+    <span>=</span>
+    <img src="red-heart.png" alt="heart">
+  </div>
+  
+  <p>(Basic math)</p>
+  
+  <button class="btn" onclick="window.location.href='final.html'" aria-label="Surprise">Click for a surprise</button>
+  
+  <div class="hearts" id="hearts"></div>
+  
+  <script>
+    function createHeart() {
+      const heart = document.createElement('div');
+      heart.className = 'heart';
+      heart.style.left = Math.random() * 100 + 'vw';
+      heart.style.animationDuration = (3 + Math.random() * 2) + 's';
+      heart.style.transform = `translateX(${Math.random() * 200 - 100}px) rotate(45deg)`;
+      document.getElementById('hearts').appendChild(heart);
+      setTimeout(() => heart.remove(), 5000);
+    }
+    
+    setInterval(createHeart, 500);
+  </script>
+</body>
+</html>

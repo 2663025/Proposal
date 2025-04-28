@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Surprise, Luthando! ❤️</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="final.css">
+</head>
+<body>
+  <div class="message-container">
+    <h1>The surprise is actually at your door <img src="laughing.png" class="laughing-img" alt="laughing" /></h1>
+  </div>
+  <div class="hearts" id="hearts"></div>
+
+  <script>
+    function createHeart() {
+      const heart = document.createElement('div');
+      heart.className = 'heart';
+      heart.style.left = Math.random() * 100 + 'vw';
+      heart.style.animationDuration = (3 + Math.random() * 2) + 's';
+      heart.style.transform = `translateX(${Math.random() * 200 - 100}px) rotate(45deg)`;
+      document.getElementById('hearts').appendChild(heart);
+      setTimeout(() => heart.remove(), 5000);
+    }
+
+    setInterval(createHeart, 500);
+  </script>
+</body>
+</html>
