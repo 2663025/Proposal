@@ -296,6 +296,10 @@ p {
     .list li {
         gap: 8px;
         padding: 0 8px;
+        padding: 0 70px;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
     }
     
     .badge-icon {

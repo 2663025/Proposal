@@ -19,6 +19,7 @@ body {
     align-items: center;
     flex-direction: column;
     max-width: 90%;
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -105,6 +106,9 @@ h1 {
     .heart-img {
         width: 24px;
         height: 24px;
+    }
+    .message-container{
+        Top: 50px;
     }
 }
 
