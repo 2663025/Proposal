@@ -133,7 +133,7 @@ p {
     }
 
     p {
-        font-size: 1.2em;
+        font-size: 1.0em;
         margin-bottom: 1.5em;
         animation: fadeInUp 1s ease;
         padding: 0 20px;
@@ -157,7 +157,7 @@ p {
     }
 
     p {
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     .btn {
