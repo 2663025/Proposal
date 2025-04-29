@@ -248,11 +248,14 @@ p {
     }
     
     .list {
-        font-size: 1.1em;
+        font-size: 0.8em;
         padding: 0px;
         text-align: center;
+        margin-bottom: 32px;
+        
        
     }
+      
     
     .list li {
         padding: 0 70px;
@@ -264,8 +267,8 @@ p {
     }
     
     .badge-icon {
-        width: 22px;
-        height: 22px;
+        width: 18px;
+        height: 18px;
     }
     
     .image-container {
@@ -290,11 +293,11 @@ p {
     }
     
     .list {
-        font-size: 1em;
+        font-size: 0.8em;
     }
     
     .list li {
-        gap: 8px;
+        gap: 18px;
         padding: 0 6px;
         padding: 0 35px;
         margin-bottom: 8px;
@@ -303,8 +306,8 @@ p {
     }
     
     .badge-icon {
-        width: 20px;
-        height: 20px;
+        width: 18px;
+        height: 18px;
     }
     
     .image-container {
