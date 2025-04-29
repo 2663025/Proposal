@@ -24,6 +24,15 @@ h1 {
     padding: 0 10px;
     box-sizing: border-box;
 }
+h3{
+    font-size: 1.5em;
+    color: rgb(0, 145, 255);
+    margin-bottom: 0.8em;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+}
 
 .laughing-img {
     width: 30px;
@@ -240,12 +249,13 @@ p {
     
     .list {
         font-size: 1.1em;
-        padding: 0 5px;
+        padding: 0px;
         text-align: center;
+       
     }
     
     .list li {
-        padding: 0 60px;
+        padding: 0 70px;
         margin-bottom: 8px;
         display: flex;
         align-items: center;
