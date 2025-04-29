@@ -295,8 +295,8 @@ p {
     
     .list li {
         gap: 8px;
-        padding: 0 8px;
-        padding: 0 70px;
+        padding: 0 6px;
+        padding: 0 35px;
         margin-bottom: 8px;
         display: flex;
         align-items: center;
